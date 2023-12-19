@@ -1,0 +1,11 @@
+{
+	"urn":"urn:x-iot:smartsantander:u7jcfa:t4068",
+	"value":6.0,
+	"uom":"millivoltPerMetre",
+	"location": {
+		"type": "Point",
+		"coordinates": [-3.80885,43.46475]
+	},
+	"phenomenon":"electricField:2100mhz",
+	"timestamp":"2022-02-21T16:33:12.279779+01:00"
+}

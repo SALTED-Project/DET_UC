@@ -1,0 +1,11 @@
+{
+	"urn":"urn:x-iot:smartsantander:u7jcfa:t483",
+	"value":50.0,
+	"uom":"decibelA",
+	"location": {
+		"type": "Point",
+		"coordinates": [-3.80713, 43.46471]
+	},
+	"phenomenon":"soundPressureLevel:ambient",
+	"timestamp":"2022-02-21T15:39:27.276126+01:00"
+}

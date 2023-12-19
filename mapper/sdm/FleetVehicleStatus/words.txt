@@ -1,0 +1,16 @@
+particles
+no2
+airqualityobserved
+temperature
+altitude
+dc
+identifier
+course
+ozone
+uri
+datos
+api
+sensores
+smart
+mobile
+json

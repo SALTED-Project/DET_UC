@@ -1,0 +1,69 @@
+{
+   "id": get_id('TrafficFlowObserved'),
+   "type": 'TrafficFlowObserved',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "averageHeadwayTime": {
+      "type": 'Property',
+      "value": averageHeadwayTime,
+      "unitCode": unitDataSalted.averageHeadwayTime,
+      "observedAt": get_date()
+   },
+   "averageVehicleLength": {
+      "type": 'Property',
+      "value": averageVehicleLength,
+      "unitCode": unitDataSalted.averageVehicleLength,
+      "observedAt": get_date()
+   },
+   "averageVehicleSpeed": {
+      "type": 'Property',
+      "value": averageVehicleSpeed,
+      "unitCode": unitDataSalted.averageVehicleSpeed,
+      "observedAt": get_date()
+   },
+   "congested": {
+      "type": 'Property',
+      "value": congested,
+      "observedAt": get_date()
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateObserved": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "intensity": {
+      "type": 'Property',
+      "value": intensity,
+      "unitCode": unitDataSalted.intensity,
+      "observedAt": get_date()
+   },
+   "laneDirection": {
+      "type": 'Property',
+      "value": laneDirection,
+      "observedAt": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "occupancy": {
+      "type": 'Property',
+      "value": occupancy,
+      "unitCode": unitDataSalted.occupancy,
+      "observedAt": get_date()
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "state": {
+      "type": 'Property',
+      "value": state
+   }
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/trafficflowobserved-context.jsonld'
+}

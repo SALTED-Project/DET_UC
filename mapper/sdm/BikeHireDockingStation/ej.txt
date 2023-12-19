@@ -1,0 +1,18 @@
+{
+      "ayto:nombre":"010_PLAZA DE SAN MARTIN",
+      "ayto:direccion":"Plaza de San Martin (Aprox. Avda de la Reina Victoria y Castelar)",
+      "location": {
+        "coordinates":
+            [
+                -3.78801,
+                43.4636
+            ],
+        "type": "Point"
+      },
+      "ayto:total_puestos":"20",
+      "dc:identifier":"10",
+      "uri":"http://datos.santander.es/api/datos/tusbic_estaciones/10.json",
+      "ayto:bicicletas_libres": "15",
+      "ayto:puestos_libres": "5",
+      "dc:modified": "2022-02-04T11:47:55Z"
+}

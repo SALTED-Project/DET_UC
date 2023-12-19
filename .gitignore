@@ -1,0 +1,7 @@
+test_loop/
+print_token.py
+push.sh
+curator/src_quality_assessment/files/quality_assessment_results.csv
+curator/src_quality_assessment/quality_assessment_debug.py
+curator/stream_assessment_debug.py
+curator/curator_debug.py

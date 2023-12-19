@@ -1,0 +1,31 @@
+{
+   "id": get_id('BatteryStatus')
+   "type": 'BatteryStatus',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "statusPercent": {
+      "type": 'Property',
+      "value": statusPercent,
+      "unitCode": unitDataSalted.statusPercent,
+      "observedAt": get_date()
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/batterystatus-context.jsonld'
+}

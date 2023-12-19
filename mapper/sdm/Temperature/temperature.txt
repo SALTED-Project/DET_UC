@@ -1,0 +1,11 @@
+{
+  "id": "urn ngsi temperatura identificate identification identificator identificador smartsantander ujcfa",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "dataProvider": "data provider iot",
+  "dateModified": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "source": "http https www",
+  "unit": "uom degree grados degrees celsius fahrenheit kelvin degreecelsius",
+  "value": "valor",
+  "nocategory": "temperature ambient x phenomenon"
+}

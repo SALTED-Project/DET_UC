@@ -1,0 +1,52 @@
+{
+   "id": get_id('FleetVehicleStatus'),
+   "type": 'FleetVehicleStatus',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "currentStatus": {
+      "type": 'Property',
+      "value": currentStatus,
+      "observedAt": get_date()
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "fleetVehicle": {
+      "type": 'Relationship',
+      "object": fleetVehicle
+   },
+   "mileageFromOdometer": {
+      "type": 'Property',
+      "value": mileageFromOdometer,
+      "unitCode": unitDataSalted.mileageFromOdometer,
+      "observedAt": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "restFuelAmount": {
+      "type": 'Property',
+      "value": restFuelAmount,
+      "unitCode": unitDataSalted.restFuelAmount,
+      "observedAt": get_date()
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "speed": {
+      "type": 'Property',
+      "value": speed,
+      "unitCode": unitDataSalted.speed,
+      "observedAt": get_date()
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/fleetvehiclestatus-context.jsonld'
+}

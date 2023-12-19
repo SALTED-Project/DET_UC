@@ -1,0 +1,31 @@
+{
+   "id": get_id('SoundPressureLevel')
+   "type": 'SoundPressureLevel',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "sounddB": {
+      "type": 'Property',
+      "value": sounddB,
+      "unitCode": unitDataSalted.sounddB,
+      "observedAt": get_date()
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/soundpressurelevel-context.jsonld'
+}

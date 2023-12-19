@@ -1,0 +1,94 @@
+version: '3'
+services:
+  sms:
+    image: salted-collectorsms-uc
+    container_name: sms
+    build: sms
+    restart: always
+    ports:
+      - 5000:5000
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+    networks:
+      - chains-network
+    depends_on:
+      - mapper
+
+  kcity:
+    image: salted-collectorkcity-uc
+    container_name: kcity
+    build: kcity
+    restart: always
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+    networks:
+      - chains-network
+    depends_on:
+      - mapper
+
+  collector:
+    image: salted-collector-uc
+    container_name: collector
+    build: collector
+    restart: always
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+    networks:
+      - chains-network
+    depends_on:
+      - mapper
+
+  mapper:
+    image: salted-mapper-uc
+    container_name: mapper
+    build: mapper
+    restart: always
+    ports:
+      - 5010:5010
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+    networks:
+      - chains-network
+    depends_on:
+      - mqtt-broker
+
+  curator:
+    image: salted-curator-uc
+    container_name: curator
+    build: curator
+    restart: always
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+      - ./curator/src_quality_assessment/files/quality_assessment_results.csv:/opt/app/src_quality_assessment/files/quality_assessment_results.csv
+      - ./curator/src_quality_assessment/files/training_data.csv:/opt/app/src_quality_assessment/files/training_data.csv
+    networks:
+      - chains-network
+    depends_on:
+      - mqtt-broker
+
+  enricher:
+    image: salted-enricher-uc
+    container_name: enricher
+    build: enricher
+    restart: always
+    ports:
+      - 5030:5030
+    volumes:
+      - ./config.conf:/opt/app/general.conf
+    networks:
+      - chains-network
+
+  mqtt-broker:
+    image: eclipse-mosquitto:2.0.15
+    container_name: mqtt-broker
+    restart: always
+    ports:
+      - 1883:1883
+    volumes:
+      - ./mqtt_config:/mosquitto/config
+    networks:
+      - chains-network
+
+networks:
+  chains-network:
+    driver: bridge

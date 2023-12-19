@@ -1,0 +1,1 @@
+{"test":"average type velocidad media", "type": "Feature", "properties": {"CodigoSeccion": "278", "Ocupacion": "70", "Intensidad": "21", "Velocidad": "31", "FechaHora": "2018-05-23 10:10:00.0"}, "geometry": {"type": "Point", "coordinates": [-2.951442367775675, 43.27286203790335]}}

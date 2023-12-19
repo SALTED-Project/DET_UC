@@ -1,0 +1,18 @@
+{
+   "urn": "urn:x-iot:smartsantander:u7jcfa:f3055",
+   "location": {
+      "type": "Point",
+      "coordinates": [
+         -3.81293,
+         43.4676
+      ]
+   },
+   "timestamp": "2022-05-09T17:05:55+02:00",
+   "phenomenon": "airQuality",
+   "uom": "milligramPerCubicMetre",
+   "relativeHumidity": 51.0,
+   "co": 0.1,
+   "no2": 0.116,
+   "o3": 0.014,
+   "airParticles": "Total air particles: 0.71"
+}

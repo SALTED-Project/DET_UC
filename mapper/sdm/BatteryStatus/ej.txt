@@ -1,0 +1,11 @@
+{
+	"urn":"urn:x-iot:smartsantander:u7jcfa:f3003",
+	"value":74.21,
+	"uom":"percent",
+	"location": {
+		"type": "Point",
+		"coordinates": [-3.80885,43.46475]
+	},
+	"phenomenon":"batteryLevel",
+	"timestamp":"2022-02-21T09:34:38.747282+01:00"
+}

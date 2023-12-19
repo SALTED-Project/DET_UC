@@ -1,0 +1,14 @@
+{
+  "id": "urn ngsi iot fleet identificate identification identificator identificador santander vehiculo",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "currentStatus": "status estado deployed finished terminated servicing starting",
+  "dataProvider": "data provider iot",
+  "dateModified": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "fleetVehicle": "relationship object",
+  "mileageFromOdometer": "mileage kilometres miles",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "restFuelAmount": "fuel gas",
+  "source": "http https www es",
+  "speed": "velocidad",
+  "nocategory": "ayto linea"
+}

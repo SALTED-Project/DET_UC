@@ -1,0 +1,11 @@
+{
+  "id": "urn ngsi iot device presence parking identificate identification identificator identificador smartsantander ujcfa np",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "category": "onStreet offStreet",
+  "dataProvider": "data provider iot",
+  "dateModified": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "source": "http https www",
+  "status": "closed free occupied unknown value",
+  "nocategory": " x phenomenon presencestate parking magnetic uom index ir"
+}

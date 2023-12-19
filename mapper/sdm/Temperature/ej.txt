@@ -1,0 +1,14 @@
+{
+   "urn": "urn:x-iot:smartsantander:u7jcfa:t519",
+   "value": 26.51,
+   "uom": "degreeCelsius",
+   "location": {
+      "type": "Point",
+      "coordinates": [
+         -3.80885,
+         43.46475
+      ]
+   },
+   "phenomenon": "temperature:ambient",
+   "timestamp": "2021-07-09T15:25:46.905712+02:00"
+}

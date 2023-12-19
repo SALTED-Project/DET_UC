@@ -1,0 +1,35 @@
+{
+   "id": get_id('Temperature')
+   "type": 'Temperature',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "unit": {
+      "type": 'Property',
+      "value": unit
+   },
+   "value": {
+      "type": 'Property',
+      "value": value,
+      "unitCode": unitDataSalted.value,
+      "observedAt": get_date()
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/temperature-context.jsonld'
+}

@@ -1,0 +1,13 @@
+{
+  "id": "urn ngsi iot bike hire bikehiredockingstation identificate identifier identification identificator identificador",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal plaza avda name via direccion",
+  "availableBikeNumber": "available bike bicycle bicicletas bicis libres number n\u00famero bikes types",
+  "dataProvider": "data provider iot",
+  "dateModified": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "freeSlotNumber": "free slot number puestos libres n\u00famero docks",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "source": "http https www uri api",
+  "status": "estado service",
+  "totalSlotNumber": "total slot number puestos n\u00famero capacity",
+  "nocategory": "gran corts catalanes physical configuration electricbikestation altitude code charging true nearby distance mechanical installed renting returning traffic null roger flor ucpols ribes pg lluis companys arc triomf pujades jutjats marqu ucs argentera udamero maritim davant brugada hospital del ayto glorieta los delfines aprox castros dc datos santander tusbic estaciones json italia joaqu uedn costa parque las llamas palacio deportes atilano rodriguez pereda fernando brisas jardines piquio alameda puerto chico mart facultad derecho ciencias cormor ucn cormoran manuel garc ueda lago cerca borna rucandial severo ochoa alta mercado uexico correos castelar martin reina victoria faculdad magdalena nombre"
+}

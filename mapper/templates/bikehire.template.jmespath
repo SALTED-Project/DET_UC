@@ -1,0 +1,44 @@
+{
+   "id": get_id('BikeHireDockingStation'),
+   "type": 'BikeHireDockingStation',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "availableBikeNumber": {
+      "type": 'Property',
+      "value": availableBikeNumber,
+      "observedAt": get_date()
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "freeSlotNumber": {
+      "type": 'Property',
+      "value": freeSlotNumber,
+      "observedAt": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "status": {
+      "type": 'Property',
+      "value": status
+   },
+   "totalSlotNumber": {
+      "type": 'Property',
+      "value": totalSlotNumber,
+      "observedAt": get_date()
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/bikehiredockingstation-context.jsonld'
+}

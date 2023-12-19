@@ -1,0 +1,10 @@
+{
+  "id": "urn ngsi iot battery status batterystatus identificate identification identificator identificador smartsantander ujcfa",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "dataProvider": "data provider iot",
+  "dateModified": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "source": "http https www",
+  "statusPercent": "status value",
+  "nocategory": " x phenomenon batterylevel uom"
+}

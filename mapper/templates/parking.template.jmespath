@@ -1,0 +1,34 @@
+{
+   "id": get_id('ParkingSpot')
+   "type": 'ParkingSpot',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "category": {
+      "type": 'Property',
+      "value": category
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateModified": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "status": {
+      "type": 'Property',
+      "value": status,
+      "observedAt": get_date()
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/parkingspot-context.jsonld'
+}

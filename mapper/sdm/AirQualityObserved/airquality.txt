@@ -1,0 +1,23 @@
+{
+  "id": "urn ngsi iot quality observed identificate identification identificator identificador smartsantander ujcfa entity aqn wsaqn recordid",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "as": "arsenic",
+  "cd": "cadmium",
+  "co": "carbon monoxide",
+  "co2": "carbon dioxide",
+  "dataProvider": "data provider iot",
+  "dateObserved": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "ni": "nickel",
+  "no": "nitrogen monoxide",
+  "no2": "nitrogen dioxide",
+  "o3": "ozone",
+  "pb": "lead",
+  "pm1": "",
+  "pm10": "",
+  "pm25": "",
+  "relativeHumidity": "relative humidity humedad relativa",
+  "so2": "sulfur dioxide so",
+  "source": "http https www",
+  "nocategory": " phenomenon uom milligrampercubicmetre airparticles total particles index"
+}

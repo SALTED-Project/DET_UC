@@ -1,0 +1,109 @@
+{
+   "id": get_id('AirQualityObserved')
+   "type": 'AirQualityObserved',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "as": {
+      "type": 'Property',
+      "value": as,
+      "unitCode": unitDataSalted.as,
+      "observedAt": get_date()
+   },
+   "cd": {
+      "type": 'Property',
+      "value": cd,
+      "unitCode": unitDataSalted.cd,
+      "observedAt": get_date()
+   },
+   "co": {
+      "type": 'Property',
+      "value": co,
+      "unitCode": unitDataSalted.co,
+      "observedAt": get_date()
+   },
+   "co2": {
+      "type": 'Property',
+      "value": co2,
+      "unitCode": unitDataSalted.co2,
+      "observedAt": get_date()
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateObserved": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "ni": {
+      "type": 'Property',
+      "value": ni,
+      "unitCode": unitDataSalted.ni,
+      "observedAt": get_date()
+   },
+   "no": {
+      "type": 'Property',
+      "value": no,
+      "unitCode": unitDataSalted.no,
+      "observedAt": get_date()
+   },
+   "no2": {
+      "type": 'Property',
+      "value": no2,
+      "unitCode": unitDataSalted.no2,
+      "observedAt": get_date()
+   },
+   "o3": {
+      "type": 'Property',
+      "value": o3,
+      "unitCode": unitDataSalted.o3,
+      "observedAt": get_date()
+   },
+   "pb": {
+      "type": 'Property',
+      "value": pb,
+      "unitCode": unitDataSalted.pb,
+      "observedAt": get_date()
+   },
+   "pm1": {
+      "type": 'Property',
+      "value": pm1,
+      "unitCode": unitDataSalted.pm1,
+      "observedAt": get_date()
+   },
+   "pm10": {
+      "type": 'Property',
+      "value": pm10,
+      "unitCode": unitDataSalted.pm10,
+      "observedAt": get_date()
+   },
+   "pm25": {
+      "type": 'Property',
+      "value": pm25,
+      "unitCode": unitDataSalted.pm25,
+      "observedAt": get_date()
+   },
+   "relativeHumidity": {
+      "type": 'Property',
+      "value": relativeHumidity,
+      "unitCode": unitDataSalted.relativeHumidity,
+      "observedAt": get_date()
+   },
+   "so2": {
+      "type": 'Property',
+      "value": so2,
+      "unitCode": unitDataSalted.so2,
+      "observedAt": get_date()
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/airqualityobserved-context.jsonld'
+}

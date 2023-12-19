@@ -1,0 +1,31 @@
+{
+   "id": get_id('ElectroMagneticObserved')
+   "type": 'ElectroMagneticObserved',
+   "address": {
+      "type": 'Property',
+      "value": address
+   },
+   "dataProvider": {
+      "type": 'Property',
+      "value": dataProvider
+   },
+   "dateObserved": {
+      "type": 'Property',
+      "value": get_date()
+   },
+   "eMF": {
+      "type": 'Property',
+      "value": eMF,
+      "unitCode": unitDataSalted.eMF,
+      "observedAt": get_date()
+   },
+   "location": {
+      "type": 'GeoProperty',
+      "value": location
+   },
+   "source": {
+      "type": 'Property',
+      "value": source
+   },
+   "@context": 'https://raw.githubusercontent.com/SALTED-Project/contexts/main/wrapped_contexts/electromagneticobserved-context.jsonld'
+}

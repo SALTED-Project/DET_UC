@@ -1,0 +1,17 @@
+{
+  "id": "urn ngsi TrafficFlowObserved traffic trafico identificate identification identificator identificador codigoseccion idtramo tramo barcelona valencia bilbao vitoria",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal nombre avda des tramo",
+  "averageHeadwayTime": "average headway time",
+  "averageVehicleLength": "average vehicle length longitud media",
+  "averageVehicleSpeed": "average speed velocidad media",
+  "congested": "congestionado",
+  "dataProvider": "data provider iot",
+  "dateObserved": "2016-12-07T11:10:00 date observed modified fecha hora time stamp timestamp fechahora startdate",
+  "intensity": "intensidad lectura",
+  "laneDirection": "forward backward direction direccion adelante atras",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon geometry",
+  "occupancy": "percent ocupacion",
+  "source": "http https www",
+  "state": "estado",
+  "nocategory": "feature properties test tipo inventario ms proveedor optimus volume load des isabel catolica paz fuente encarroz uaa cristina sagunto santa ufnica maximiliano thous fuerteventura alameda"
+}

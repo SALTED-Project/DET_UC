@@ -1,0 +1,10 @@
+{
+  "id": "urn ngsi iot electro magnetic electromagnetic electromagneticobserved identificate identification identificator identificador smartsantander ujcfa",
+  "address": "country locality addressCountry addressLocality calle avenida paseo street avenue rue postal",
+  "dataProvider": "data provider iot",
+  "dateObserved": "2016-12-07T11:10:00Z date observed modified fecha hora time stamp timestamp",
+  "eMF": "value millivolt mv metre",
+  "location": "coordinates latitude longitude lat lon latitud longitud type LineString point polygon",
+  "source": "http https www",
+  "nocategory": " x phenomenon electricfield mhz uom millivoltpermetre"
+}

@@ -1,0 +1,11 @@
+{
+	"urn":"urn:x-iot:smartsantander:u7jcfa:np3915",
+	"value":1,
+	"uom":"index",
+	"location": {
+		"type": "Point",
+		"coordinates": [-3.7978081703186035, 43.463985443115234]
+	},
+	"phenomenon":"presenceState:parking",
+	"timestamp":"2022-02-21T15:54:52+01:00"
+}
