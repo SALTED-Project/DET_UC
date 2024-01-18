@@ -1,4 +1,4 @@
-# Batch collector by Universidad de Cantabria
+# Batch Data Collector by Universidad de Cantabria
 This repository contains the source code of the batch Data Collector developed by Universidad de Cantabria (UC) within the framework of the [SALTED project](https://salted-project.eu/). This component harvests data from heterogeneous sources, namely Open Data Portals, via HTTP requests, and sends the pre-processed data to the Data Mapper. The collection frequency of a running instance of this component may also be reconfigured on the fly via the Control Loop mechanism.
 
 ## Acknowledgement

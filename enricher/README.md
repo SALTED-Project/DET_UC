@@ -1,4 +1,4 @@
-# Batch collector by Universidad de Cantabria
+# Data Enrichers and Data Linkers by Universidad de Cantabria
 This repository contains the source code of the Data Enrichers and Data Linkers developed by Universidad de Cantabria (UC) within the framework of the [SALTED project](https://salted-project.eu/). These components recieve NGSI-LD entities via notifications from a Context Broker and add value to them by adding new properties (in the case of enrichers) or relationships (in the case of linkers). The new high-quality entities are re-injected into the NGSI-LD Context Broker.
 
 The proximity distance surveyed by the Geolocation Data Linker may be reconfigured on the fly using the Control Loop mechanism.

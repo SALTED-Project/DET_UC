@@ -1,4 +1,4 @@
-# Batch collector by Universidad de Cantabria
+# TTN Data Collector by Universidad de Cantabria
 This repository contains the source code of the The Things Network (TTN) Data Collector developed by Universidad de Cantabria (UC) within the framework of the [SALTED project](https://salted-project.eu/). This component harvests data from TTN via MQTT notifications, and sends the pre-processed data to the Data Mapper.
 
 ## Acknowledgement

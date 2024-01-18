@@ -1,4 +1,4 @@
-# Batch collector by Universidad de Cantabria
+# SmartSantander Data Collector by Universidad de Cantabria
 This repository contains the source code of the SmartSantander Data Collector developed by Universidad de Cantabria (UC) within the framework of the [SALTED project](https://salted-project.eu/). This component harvests data via HTTP using a subscription/notification mechanism, and sends the pre-processed data to the Data Mapper.
 
 ## Acknowledgement

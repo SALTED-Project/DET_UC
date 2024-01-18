@@ -1,4 +1,4 @@
-# Batch collector by Universidad de Cantabria
+# Data Mapper by Universidad de Cantabria
 This repository contains the source code of the Data Mapper developed by Universidad de Cantabria (UC) within the framework of the [SALTED project](https://salted-project.eu/). This component receives heterogeneously-formatted data and transforms them into NGSI-LD, and more specifically Smart Data Models. The output entities are sent to the Data Curator.
 
 ## Acknowledgement
